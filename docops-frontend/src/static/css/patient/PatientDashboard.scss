@@ -1,0 +1,84 @@
+.patient-content{
+    width: 100%;
+    display: flex;
+}
+.nav{
+   
+    width: 20%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-right:1px solid #d4d4d4;
+    .logo{
+        margin-top: 1rem;
+        svg{
+            height: 3rem;
+        }
+    }
+    .profile-pic{
+        padding-top: 2rem;
+        img{
+            height: 8.5rem;
+            width: 8.5rem;
+            object-fit: cover;
+            border-radius: 50%;    
+        }
+        
+    }
+    h1{
+        font-family: 'Poppins';
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin: 0;
+        
+    }
+    p{      
+        margin: 0;
+        font-size: .8rem;
+        margin-bottom: 0rem;
+        color: #6E6D7A;
+        
+    }
+    a{
+        text-decoration: none;
+        color: #000000;
+        margin: 20px 0;
+    }
+    ul {
+        
+        padding: 0;
+        font-weight: 600;
+        margin: 0;
+        list-style-type: none;
+        
+        
+    }
+    nav{
+        width: 100%;
+        
+        height: auto;
+        padding-left: 6rem;
+        display: flex;
+        align-items: flex-start;
+       
+    }
+    .nav-list{
+        
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        
+        
+    }
+    .logout{
+        margin-top: auto;
+        font-weight: 600;
+        justify-self: flex-end;
+        a{
+            display: flex;
+            gap:1rem;
+        }
+    }
+}
+

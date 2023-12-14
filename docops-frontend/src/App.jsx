@@ -1,21 +1,27 @@
-import './App.css';
-import Landing from './Landing';
-//import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-//import NotFound from './NotFound';
+
+import './static/css/App.css';
+import Landing from './pages/Landing';
+import { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
+import NotFound from './pages/NotFound';
+import PatientDashboard from './pages/patient/PatientDashboard';
 
 function App() {
   return (
-    // <Router>
-      <div className="App">
-        <div className="container">
-          {/* <Routes>
-            <Route exact path='/' element={<Landing />} />
-            <Route exact path='*' element={<NotFound />} />
-          </Routes> */}
-          <Landing/>
-        </div>
-      </div>
-    // </Router>
+    
+    <div className="App">
+    <Router>
+        <>
+          <Routes>
+            <Route path='/' element={<Landing/>} />
+            <Route path='/patient' element={<PatientDashboard/>} />
+            <Route path='*' element={<NotFound />} />
+      
+          </Routes>
+
+        </>
+    </Router>
+    </div>
+
   );
 }
 
