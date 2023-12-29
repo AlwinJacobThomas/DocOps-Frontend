@@ -13,7 +13,7 @@
     .logo{
         margin-top: 1rem;
         svg{
-            height: 3rem;
+            height: 2.5rem;
         }
     }
     .profile-pic{
@@ -81,4 +81,62 @@
         }
     }
 }
+/* patient details */
+.page-contents{
+    padding: 10px 30px;
+    .nav-title{
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #000;
+  }
+  .page-title{
+    margin-top: 4rem;
+    font-size: 30px;
+    font-weight: 600;
+  }
+  
+  .toggle-btn{
+    background: transparent;
+    border: none;
+    display: flex;
+    
+    width: 100%;
+    gap: 10px;
+    align-items: center;
+    font-size: 1rem;
+    font-family: 'poppins';
+    font-weight:500;
+    padding: 0;
+    color: #17a2b8;
 
+    svg{
+        fill: #17a2b8;
+    }
+  }
+  
+  .patient-name{
+    margin-top: 1rem;
+    font-size: 25px;
+  }
+  .patient-details{
+    display: flex;
+    flex-direction: column;
+    
+
+  }
+  label{
+    color: #000000;
+    display: flex;
+    font-weight: 500;
+    gap: 10px;
+    align-items: center;
+  }
+  .patient-details-list{
+    color: #6E6D7A;
+    
+  }
+  p{
+    margin: 0;
+  }
+  
+}
